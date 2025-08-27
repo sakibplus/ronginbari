@@ -6,7 +6,7 @@ export function HeroSection({ data }: { data: HeroData }) {
   if (!data) return null;
 
   return (
-    <section className="bg-primary text-white">
+    <section className="bg-[linear-gradient(#091f6e,#b34fb3)] text-white">
       <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center pt-12 pb-0">
         <h1 className="text-4xl md:text-5xl font-bold font-headline tracking-tight mb-4">
           {data.title}
